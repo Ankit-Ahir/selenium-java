@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener
+			class-name="rahulshettyacademy.selenium_java.testcomponents.Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="StandAloneTest">
+		<classes>
+			<class
+				name="rahulshettyacademy.selenium_java.tests.StandAloneTest" />
+
+		</classes>
+	</test>
+	<test thread-count="5" name="ErrorValidationTest">
+		<classes>
+			<class
+				name="rahulshettyacademy.selenium_java.tests.ErrorValidationTest" />
+		</classes>
+	</test>
+</suite> 

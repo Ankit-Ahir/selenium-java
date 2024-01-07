@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-07T00:27:54 IST" name="Surefire suite" finished-at="2024-01-07T00:28:16 IST" duration-ms="21251">
+    <groups>
+      <group name="Purchase">
+        <method signature="StandAloneTest.submitOrderTest(java.util.HashMap)[pri:0, instance:rahulshettyacademy.selenium_java.tests.StandAloneTest@2aa3cd93]" name="submitOrderTest" class="rahulshettyacademy.selenium_java.tests.StandAloneTest"/>
+      </group> <!-- Purchase -->
+      <group name="Error Validation">
+        <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:rahulshettyacademy.selenium_java.tests.ErrorValidationTest@1198b989]" name="loginErrorValidation" class="rahulshettyacademy.selenium_java.tests.ErrorValidationTest"/>
+      </group> <!-- Error Validation -->
+    </groups>
+    <test started-at="2024-01-07T00:27:54 IST" name="Surefire test" finished-at="2024-01-07T00:28:16 IST" duration-ms="21251">
+      <class name="rahulshettyacademy.selenium_java.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchingApplications()[pri:0, instance:rahulshettyacademy.selenium_java.tests.ErrorValidationTest@1198b989]" started-at="2024-01-07T00:27:54 IST" name="launchingApplications" finished-at="2024-01-07T00:27:57 IST" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplications -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:rahulshettyacademy.selenium_java.tests.ErrorValidationTest@1198b989]" started-at="2024-01-07T00:27:57 IST" name="loginErrorValidation" finished-at="2024-01-07T00:27:57 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.selenium_java.tests.ErrorValidationTest@1198b989]" started-at="2024-01-07T00:27:57 IST" name="tearDown" finished-at="2024-01-07T00:27:57 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchingApplications()[pri:0, instance:rahulshettyacademy.selenium_java.tests.ErrorValidationTest@1198b989]" started-at="2024-01-07T00:27:57 IST" name="launchingApplications" finished-at="2024-01-07T00:27:59 IST" duration-ms="1448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplications -->
+        <test-method signature="productErrorValidation()[pri:0, instance:rahulshettyacademy.selenium_java.tests.ErrorValidationTest@1198b989]" started-at="2024-01-07T00:27:59 IST" name="productErrorValidation" finished-at="2024-01-07T00:28:01 IST" duration-ms="2753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.selenium_java.tests.ErrorValidationTest@1198b989]" started-at="2024-01-07T00:28:01 IST" name="tearDown" finished-at="2024-01-07T00:28:02 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rahulshettyacademy.selenium_java.tests.ErrorValidationTest -->
+      <class name="rahulshettyacademy.selenium_java.tests.StandAloneTest">
+        <test-method is-config="true" signature="launchingApplications()[pri:0, instance:rahulshettyacademy.selenium_java.tests.StandAloneTest@2aa3cd93]" started-at="2024-01-07T00:28:02 IST" name="launchingApplications" finished-at="2024-01-07T00:28:03 IST" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplications -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:rahulshettyacademy.selenium_java.tests.StandAloneTest@2aa3cd93]" started-at="2024-01-07T00:28:03 IST" name="submitOrderTest" data-provider="getData" finished-at="2024-01-07T00:28:07 IST" duration-ms="3572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@123, productName=ZARA COAT 3, username=test07@qa.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.selenium_java.tests.StandAloneTest@2aa3cd93]" started-at="2024-01-07T00:28:07 IST" name="tearDown" finished-at="2024-01-07T00:28:07 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchingApplications()[pri:0, instance:rahulshettyacademy.selenium_java.tests.StandAloneTest@2aa3cd93]" started-at="2024-01-07T00:28:07 IST" name="launchingApplications" finished-at="2024-01-07T00:28:08 IST" duration-ms="1710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplications -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:rahulshettyacademy.selenium_java.tests.StandAloneTest@2aa3cd93]" started-at="2024-01-07T00:28:08 IST" name="submitOrderTest" data-provider="getData" finished-at="2024-01-07T00:28:12 IST" duration-ms="3557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@789, productName=ADIDAS ORIGINAL, username=test10@qa.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.selenium_java.tests.StandAloneTest@2aa3cd93]" started-at="2024-01-07T00:28:12 IST" name="tearDown" finished-at="2024-01-07T00:28:12 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchingApplications()[pri:0, instance:rahulshettyacademy.selenium_java.tests.StandAloneTest@2aa3cd93]" started-at="2024-01-07T00:28:12 IST" name="launchingApplications" finished-at="2024-01-07T00:28:15 IST" duration-ms="2762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplications -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:rahulshettyacademy.selenium_java.tests.StandAloneTest@2aa3cd93]" started-at="2024-01-07T00:28:15 IST" name="orderHistoryTest" finished-at="2024-01-07T00:28:16 IST" depends-on-methods="rahulshettyacademy.selenium_java.tests.StandAloneTest.submitOrderTest" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.selenium_java.tests.StandAloneTest@2aa3cd93]" started-at="2024-01-07T00:28:16 IST" name="tearDown" finished-at="2024-01-07T00:28:16 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rahulshettyacademy.selenium_java.tests.StandAloneTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
